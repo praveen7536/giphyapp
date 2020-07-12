@@ -5,3 +5,17 @@
      sans-serif;
 
 }
+body{
+   animation:change 10s infinite;
+
+}
+@keyframes change{
+    0%{background-color: #42cef5;}
+    15%{background-color: #42f5c2;}
+    30%{background-color:#bcf542 ;}
+    45%{background-color: #427ef5;}
+    60%{background-color: #f58742;}
+    75%{background-color: #f5428d;}
+    90%{background-color:#c542f5 ;}
+    100%{background-color: #42f575;}
+}

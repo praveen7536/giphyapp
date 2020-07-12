@@ -7,3 +7,15 @@ nav{
     font-weight: bold;
 
 }
+h1{
+    text-align: center;
+    padding: 0%;
+    font-family: fantasy;
+    color: aliceblue;
+    background: orange;
+    
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+}

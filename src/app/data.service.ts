@@ -13,14 +13,14 @@ export class DataService {
 
   }
   getTrending() {
-    return this.http.get(`https://api.giphy.com/v1/gifs/trending?api_key=%${environment.giphyapi}&limit=52`).subscribe((Response: any) => {
-      this.gif.next(Response.data);
+    return this.http.get(`https://api.giphy.com/v1/gifs/trending?api_key=%${environment.giphyapi}&limit=52`).subscribe((response: any) => {
+      this.gif.next(response.data);
     });
 
   }
   search(gifName: string) {
-    return this.http.get(`https://api.giphy.com/v1/gifs/search?q=${gifName}api._key=%${environment.giphyapi}&limit=50`).subscribe((Response: any) => {
-      this.gif.next(Response.data);
+    return this.http.get(`https://api.giphy.com/v1/gifs/search?q=${gifName}api._key=%${environment.giphyapi}&limit=50`).subscribe((response: any) => {
+      this.gif.next(response.data);
     });
   }
   getGifs(){

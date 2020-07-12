@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "giphyapp"
+    }
+  },
+  "defaultProject": "giphyapp",
+  "cli": {
+    "analytics": "1107ecbe-69a3-44a8-ad68-10f1e9040f13"
+  }
 }
